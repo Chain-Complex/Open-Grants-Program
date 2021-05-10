@@ -4,24 +4,22 @@
 >
 > See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/#pencil-process) on how to submit a proposal.
 
-* **Project Name:** Name of your project (e.g. DuoSwap Module)
-* **Team Name:** Legal name of your team (e.g. Duo)
-* **Payment Address:** BTC or Ethereum (DAI) payment address. We don't accept payments for the program in other currencies at this stage. (e.g. 123mp123...)
+* **Project Name:** Decentralized Exchange for Contracts
+* **Team Name:** Chain Complex
+* * **Payment Address:** BTC or Ethereum (DAI) payment address. We don't accept payments for the program in other currencies at this stage. (e.g. 123mp123...)
 
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+Many matching schemes do not only match agents but also determine contractual details of a matching. In practice, contracts are often incomplete and parties might renege on promises made during the contracting phase. Blockchain technology offers the possibility to write self-enforcing contracts that mitigates these problems and does not require legal enforcement in case of dispute. Moreover, it facilitates writing complete contracts that specify consequences for all possible contingencies.
 
 ### Overview
 
 Please provide the following:
 
-* If the name of your project is not descriptive, a tag line (one sentence summary).
+* Decentralized implementation of matching with contracts.
 * A brief description of your project.
 * An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
 * An indication of why your team is interested in creating this project.
@@ -53,35 +51,50 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-* Name of team leader
-* Names of team members 
+* Akaki Mamageishvili
+* Jan Christoph Schlegel, Giorgi Nadiradze 
 
 ### Contact
 
-* **Contact Name:** Full name of the contact person in your team
-* **Contact Email:** Contact email (e.g. john@duo.com)
-* **Website:**
+* **Contact Name:** Akaki Mamageishvili
+* **Contact Email:** akaki@chaincomplex.ch
+* **Website:** http://chaincomplex.ch/
 
 ### Legal Structure
 
-* **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-* **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+* **Registered Address:** Oerlikonerstrasse 94, 8057 Zurich
+* **Registered Legal Entity:** Chain Complex KLG
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+We have three papers on the economic aspects and usecases of blockchains: 
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+   * Akaki Mamageishvili, Jan Christoph Schlegel:
+      Optimal Smart Contracts with Costly Verification. IEEE ICBC 2020: 1-8
+ 
+   * Akaki Mamageishvili, Jan Christoph Schlegel:
+      Mechanism Design and Blockchains. CoRR abs/2005.02390 (2020)
+    
+   * Jan Christoph Schlegel, Akaki Mamageishvili
+      On-Chain Auctions with Deposits.  	arXiv:2103.16681 (2021)
 
+Akaki Mamageishvili has written 2 more papers relevant to this topic:
+   * Simon Janin, Kaihua Qin, Akaki Mamageishvili, Arthur Gervais:
+      FileBounty: Fair Data Exchange. EuroS&P Workshops 2020: 357--366
+     
+   * Hans Gersbach, Akaki Mamageishvili, Manvir Schneider:
+      Vote Delegation and Malicious Parties. IEEE ICBC 2020: 1--2
+    
 ### Team Code Repos
 
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/Chain-Complex
+* https://github.com/orgs/Chain-Complex/people/kakia89
+* https://github.com/orgs/Chain-Complex/people/giorgi128
 
 ### Team LinkedIn Profiles
 
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/akaki-mamageishvili-b40824b3/
+* https://www.linkedin.com/in/christoph-schlegel-77981943/
 
 ## Development Status :open_book:
 
@@ -114,44 +127,31 @@ To assist you in defining it, we have created a document with examples for some 
 
 ### Overview
 
-* **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-* **Full-Time Equivalent (FTE):**  Required workload of a full-time employee for the whole project (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent)) (e.g. 2 FTE)
-* **Total Costs:** Amount of payment in USD for the whole project. The total amount of funding _needs to be below $30k for initial grants_ and $100k for follow-up grants. (e.g. 12,000 USD). This and the costs for each milestone need to be in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+* **Total Estimated Duration:** 4 months
+* **Full-Time Equivalent (FTE):**  0.8 FTE
+* **Total Costs:** 30,000$
 
-### Milestone 1 Example — Implement Substrate Modules
+### Milestone 1 Example — Solution Concept
 
-* **Estimated Duration:** 1 month
-* **FTE:**  2
-* **Costs:** 8,000 USD
+* **Estimated Duration:** 2 months
+* **FTE:**  0.8
+* **Costs:** 15,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article/Tutorial | We will publish an article/tutorial/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+We will come up with the solution concept and publish an academic paper about it.
 
+### Milestone 2 Example — Defining Specifications
+* **Estimated Duration:** 2 month
+* **FTE:**  0.8
+* **Costs:** 15,000 USD
 
-### Milestone 2 Example — Additional features
-
-* **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** 4,000 USD
-
-...
-
+We will define implementation roadmap, using Polkadot development tools. 
 
 ## Future Plans
 
 Please include here
 
-* how you intend to use, enhance, promote and support your project in the short term, and
-* the team's long-term plans and intentions in relation to it.
+* In the short run, we will implement our algorithm, immediately after specifying required roadmap.
+* We will find users to use our product or offer .
 
 
 ## Additional Information :heavy_plus_sign:
