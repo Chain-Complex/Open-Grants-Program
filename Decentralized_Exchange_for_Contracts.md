@@ -22,6 +22,9 @@ Many matching schemes do not only match agents but also determine contractual de
 
 ### Project Details
 
+In the first phase of the project, we will research and enquire Polkadot blockchain properties for implementing contract matching algorithm(s) in a decentralized way. We will identify the most suitable algorithm for this purpose. During the research phase we will come up with the solution concept and publish an academic paper about it.
+
+
 * An overview of the technology stack to be used:
 
 After checking Polkadot development tools, we find the following tools and projects (potentially) useful for our project:  
@@ -102,7 +105,7 @@ Giorgi Nadiradze holds a Bachelor's degree in computer science from Tbilisi Stat
 * **Full-Time Equivalent (FTE):**  0.8 FTE
 * **Total Costs:** 30,000$
 
-### Milestone 1 Example — Solution Concept
+### Milestone 1 — Solution Concept
 
 * **Estimated Duration:** 2 months
 * **FTE:**  0.8
@@ -110,7 +113,7 @@ Giorgi Nadiradze holds a Bachelor's degree in computer science from Tbilisi Stat
 
 We will research and enquire Polkadot blockchain properties for implementing contract matching algorithm in a decentralized way. During the research phase we will come up with the solution concept and publish an academic paper about it.
 
-### Milestone 2 Example — Defining Specifications
+### Milestone 2 — Defining Specifications
 * **Estimated Duration:** 2 month
 * **FTE:**  0.8
 * **Costs:** 15,000 USD
