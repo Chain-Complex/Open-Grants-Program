@@ -6,35 +6,36 @@
 
 * **Project Name:** Decentralized Exchange for Contracts
 * **Team Name:** Chain Complex
-* * **Payment Address:** BTC or Ethereum (DAI) payment address. We don't accept payments for the program in other currencies at this stage. (e.g. 123mp123...)
+* * **Payment Address:** Ethereum (DAI) payment address: 0xA015048555940B3fE5989Fbb75A2ef9E178e9859
 
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-Many matching schemes do not only match agents but also determine contractual details of a matching. In practice, contracts are often incomplete and parties might renege on promises made during the contracting phase. Blockchain technology offers the possibility to write self-enforcing contracts that mitigates these problems and does not require legal enforcement in case of dispute. Moreover, it facilitates writing complete contracts that specify consequences for all possible contingencies.
+* Decentralized implementation of matching with contracts.
 
 ### Overview
 
-Please provide the following:
+Many matching schemes do not only match agents but also determine contractual details of a matching. In practice, contracts are often incomplete and parties might renege on promises made during the contracting phase. Blockchain technology offers the possibility to write self-enforcing contracts that mitigates these problems and does not require legal enforcement in case of dispute. Moreover, it facilitates writing complete contracts that specify consequences for all possible contingencies. On the application layer we will design a user interface. There will be an off-chain distributed system calculating a matching -- using the programming languages C++ and Kotlin, the latter for shared-memory programming. On the smart-contract level, we will use Solang. On the blockchain (sub- or para- chain) level, we will maintain a distributed database and access controls for users. How exactly this mixture of off- and on-chain computations works is a part of a research question we address. 
 
-* Decentralized implementation of matching with contracts.
-* A brief description of your project.
-* An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-* An indication of why your team is interested in creating this project.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+* An overview of the technology stack to be used:
 
-* Mockups/designs of any UI components
-* Data models / API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture, etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
-* What your project is _not_ or will _not_ provide or implement
-  * This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+After checking Polkadot development tools, we find the following tools and projects (potentially) useful for our project:  
+
+Smart Contract Language: Solang.
+Parachain Dev Kits: Gantree.
+Client Libraries: Go, C++, C, Haskell, Javascript, Substrate API Sidecar - TypeScript, Python, Java(new), PHP.
+Randomness: DKG and Randomness Beacon.
+Bridges: Ethereum by Centrifuge, POA <> Substrate, Substrate <> Ethereum DAI Bridge, BTC by ChainX, Polkadot Ethereum Bridge.
+Privacy: ZeroChain, Automata Network.
+ZKP: ZeroPool, Megaclite.
+
+
+* Disclaimer: This is a first stage of a bigger project, so only solution concept and specifications will be provided. 
 
 ### Ecosystem Fit
 
@@ -67,23 +68,17 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team's experience
 
-We have three papers on the economic aspects and usecases of blockchains: 
+Akaki Mamageishvili holds a Bachelor's degree in mathematics from Tbilisi State University, and Master's and Ph.D. degrees in theoretical computer science from ETH Zurich. His research areas during Ph.D. studies were algorithmic game theory and algorithmic mechanism design. After his Ph.D. studies, he became a postdoc at the Department of Management, Technology and Economics at ETH Zurich, and was later promoted to senior researcher. He works on mechanism design and voting questions, often with applications to decentralized systems such as blockchains. He has published in leading journals in economic theory and operations research such as *Journal of Economic Theory, Games and Economic Behavior, International Journal of Game Theory, Operations Research Letters* as well as computer science conferences such as *WINE, MFCS, IEEE ICBC*. He is a regular participant of programming competitions. Recent successes include 4 times Google Haschode finals (2016,2017,2019,2020), with 3rd prize place in 2017.   
 
-   * Akaki Mamageishvili, Jan Christoph Schlegel:
-      Optimal Smart Contracts with Costly Verification. IEEE ICBC 2020: 1-8
- 
-   * Akaki Mamageishvili, Jan Christoph Schlegel:
-      Mechanism Design and Blockchains. CoRR abs/2005.02390 (2020)
-    
-   * Jan Christoph Schlegel, Akaki Mamageishvili
-      On-Chain Auctions with Deposits.  	arXiv:2103.16681 (2021)
 
-Akaki Mamageishvili has written 2 more papers relevant to this topic:
-   * Simon Janin, Kaihua Qin, Akaki Mamageishvili, Arthur Gervais:
-      FileBounty: Fair Data Exchange. EuroS&P Workshops 2020: 357--366
-     
-   * Hans Gersbach, Akaki Mamageishvili, Manvir Schneider:
-      Vote Delegation and Malicious Parties. IEEE ICBC 2020: 1--2
+Webpage: \url{http://mamageishvili.info/}. 
+
+Jan Christoph Schlegel holds Bachelor's and Master's degrees in mathematics from ETH Zurich and a Ph.D. in economics from HEC Lausanne (awarded the Prix de Faculté). Since finishing his Ph.D. studies in 2017 he works at the Department of Economics of the City, University of London first as a Lecturer (Assistant Professor) and now as a Senior Lecturer (Associate Professor). His main areas of research are market design and matching theory, in particular mechanism design for matching markets, and topics at the intersection of Economics and Computation. He has published extensively on these topics in leading economic theory journals such as the *Journal of Economic Theory, Games and Economic Behavior* and computer science conference such as the ACM Conference on *Economics and Computation (EC)*. He regularly works as an expert for \emph{Swiss Economics AG}, a consultancy, to advise blockchain start-ups on questions of pricing, ICOs, and the design of token economies.
+
+Webpage: \url{https://christophschlegel.com}
+
+Giorgi Nadiradze holds a Bachelor's degree in computer science from Tbilisi State University, a Master's degree in mathematics from the Central European University, and a Master's degree in computer science from Saarland University. Currently, he pursues Ph.D. studies at IST Austria. His research areas are distributed computing and machine learning. He has published in leading computer science conferences such as *SODA, PODC, ICALP, SPAA, AAAI. 
+
     
 ### Team Code Repos
 
@@ -98,32 +93,8 @@ Akaki Mamageishvili has written 2 more papers relevant to this topic:
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+* References to conversations you might have had related to this project with anyone from the Web3 Foundation: Sebastian Muller and Marcin Gorny. 
 
-* links to improvement proposals or [RFPs](https://github.com/w3f/General-Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-* academic publications relevant to the problem,
-* links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-* references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-* previous interface iterations, such as mock-ups and wireframes.
-
-## Development Roadmap :nut_and_bolt:
-
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that the scope of the work can fit within a three-month period and that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-* make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-To assist you in defining it, we have created a document with examples for some grant categories [here](../src/grant_guidelines_per_category.md).
-* include the amount of funding requested _per milestone_.
-* include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-* provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-* commit to providing Dockerfiles for the delivery of your project.
-* indicate milestone duration as well as number of full-time employees working on each milestone, and include the approximate number of days along with the cost per day.
-* _Deliverables 0a-0d are mandatory_ and shall not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
@@ -137,29 +108,42 @@ To assist you in defining it, we have created a document with examples for some 
 * **FTE:**  0.8
 * **Costs:** 15,000 USD
 
-We will come up with the solution concept and publish an academic paper about it.
+We will research and enquire Polkadot blockchain properties for implementing contract matching algorithm in a decentralized way. During the research phase we will come up with the solution concept and publish an academic paper about it.
 
 ### Milestone 2 Example — Defining Specifications
 * **Estimated Duration:** 2 month
 * **FTE:**  0.8
 * **Costs:** 15,000 USD
 
-We will define implementation roadmap, using Polkadot development tools. 
+We will define implementation roadmap, relevant , using Polkadot development tools. 
 
 ## Future Plans
 
-Please include here
-
 * In the short run, we will implement our algorithm, immediately after specifying required roadmap.
-* We will find users to use our product or offer .
+* We will find businesses to use our product or offer it as our product to end users.
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Web3 Foundation Website / personal recommendation
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+* Work we have already done.
+   
+   Three papers on the economic aspects and usecases of blockchains: 
 
-* Work you have already done.
-* Wheter there are any other teams who have already contributed (financially) to the project.
-* Previous grants you may have applied for.
+   * Akaki Mamageishvili, Jan Christoph Schlegel:
+      Optimal Smart Contracts with Costly Verification. IEEE ICBC 2020: 1-8
+ 
+   * Akaki Mamageishvili, Jan Christoph Schlegel:
+      Mechanism Design and Blockchains. CoRR abs/2005.02390 (2020)
+    
+   * Jan Christoph Schlegel, Akaki Mamageishvili
+      On-Chain Auctions with Deposits.  	arXiv:2103.16681 (2021)
+
+Akaki Mamageishvili has written 2 more papers relevant to this topic:
+
+   * Simon Janin, Kaihua Qin, Akaki Mamageishvili, Arthur Gervais:
+      FileBounty: Fair Data Exchange. EuroS&P Workshops 2020: 357--366
+     
+   * Hans Gersbach, Akaki Mamageishvili, Manvir Schneider:
+      Vote Delegation and Malicious Parties. IEEE ICBC 2020: 1--2
