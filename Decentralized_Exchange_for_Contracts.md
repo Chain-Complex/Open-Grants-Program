@@ -42,14 +42,10 @@ ZKP: ZeroPool, Megaclite.
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
-* Where and how does your project fit into the ecosystem?
-* Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-* What need(s) does your project meet?
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  * If so, how is your project different?
-  * If not, are there similar projects in related ecosystems?
+* The target audience is anyone who wants to use matching of contracts as subroutine of their application/
+* Our project provides infrastructure to match counterparties of contracts to each other. This can be used in many applications, such as financial applications, job applications, etc. 
+* We are not aware of any project in the Polkadot system that does similar things as ours.
+  * We are not aware of similar projects in related ecosystems.
 
 ## Team :busts_in_silhouette:
 
