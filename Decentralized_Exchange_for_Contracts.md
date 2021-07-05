@@ -107,7 +107,7 @@ Giorgi Nadiradze holds a Bachelor's degree in computer science from Tbilisi Stat
 * **FTE:**  0.8
 * **Costs:** 15,000 USD
 
-We will research and enquire Polkadot blockchain properties for implementing contract matching algorithm in a decentralized way. During the research phase we will come up with the solution concept and publish an academic paper about it.
+We will research and enquire Polkadot blockchain properties for implementing contract matching algorithm in a decentralized way. During the research phase we will come up with the solution concept and publish a scientific report on it.
 
 ### Milestone 2 — Defining Specifications
 * **Estimated Duration:** 2 month
